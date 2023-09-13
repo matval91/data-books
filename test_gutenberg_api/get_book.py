@@ -57,6 +57,5 @@ def cache_book_id_from_title(title='Moby Dick'):
 
   cursor = cache.native_query(f"SELECT * from books WHERE id=\'{book_id}\'")
   book_id=cursor.fetchall()
-  book_id = book_id[0][0]
 
   return book_id
