@@ -1,1 +1,3 @@
 *.db
+token_*
+__pycache__
